@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.minhaconta{
+    font-size: 25px;
+    margin-top: -43px;
+    font-family: 'Chivo Mono';
+}
+.meuspedidos{
+    font-size: 25px;
+    margin-top: -30px;
+    margin-left: 175px;
+    font-family: 'Chivo Mono';
+}
+a{ 
+    color: inherit;
+} 
+.barra{
+    margin-top: -8px;
+    margin-left: -8px;
+}
+.logo{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:500px;
+    height:32px;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:20px;
+    border:none;
+    height:32px;
+    width:300px;
+    margin-left: 0px;
+}
+#btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:200px;
+    font-weight:bold;
+    background:#5F9EA0;
+    margin-left: 300px;
+    margin-top: -34px;
+}
+.sacola{
+    margin-top: -95px;
+    margin-left: 725px;
+    -webkit-filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.9)); 
+    filter: drop-shadow(4px 4px 10px rgba(0, 7, 3, 0.9));
+}
+:root {
+    --cor-fundo: rgb(97, 104, 1);
+    --cor-hover: rgb(0, 7, 3);
+    --cor-primaria: rgb(255, 255, 255);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    transition: background .3s;
+    font-size: 25px;
+    -webkit-filter: drop-shadow(4px 4px 10px rgba(221, 236, 8, 0.9)); 
+    filter: drop-shadow(4px 4px 10px rgba(199, 240, 18, 0.9));
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
